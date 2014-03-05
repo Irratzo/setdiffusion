@@ -1,0 +1,1 @@
+Outputs a 1D array of i elements from j sets where the distance between two elements from the same set is maximal.
