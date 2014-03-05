@@ -1,1 +1,51 @@
-Outputs a 1D array of i elements from j sets where the distance between two elements from the same set is maximal.
+Author: Johannes Wasmer
+Date: 2012-08-10
+Description: Outputs a 1D array of n elements from m sets where the distance between two elements from the same set is maximal.
+
+
+
+
+Application examples:
+1) Students of m different countries go to the movies. The goal is to engage students from different countries to get know each other. In order to force them to do that, distribute their seats in the cinema seat row so that two students from the same country have as many students from a different country between them as possible. There are n students and n seats.
+2) A student prepares for m exams. She has n days until the exams. She divides n into m different numbers of preparation days for each exam according to their difficulty. In order to avoid that she practices for each exam on a optimally regular basis, distribute the preparation days for a particular exam so that the maximum amount of non-related preparation days lie in-between two preparation days for that particular exam.
+
+
+
+
+How to use:
+user$: lerntageplaner < data.in > data.out
+
+
+
+
+Formats:
+
+Input:
+Text file, looks like:
+set-1 #_elements_in_set-1
+set-2 #_elements_in_set-2
+...
+set-m #_elements_in_set-m
+
+
+Output:
+Text file, looks like:
+Lots of lines of computation comments
+Last line: Solution:
+Array
+
+
+
+
+Example:
+
+Input 1:
+A 2
+B 2
+C 2
+
+Output:
+Computation comments
+...
+Solution:
+A B C A B C
