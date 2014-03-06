@@ -13,7 +13,7 @@ Application examples:
 
 
 How to use:
-user$: lerntageplaner < data.in > data.out
+user$: executable < data.in > data.out
 
 
 
